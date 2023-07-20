@@ -1,0 +1,46 @@
+body{
+	background-color: salmon;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+.navbar{
+	background-color: #333;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+}
+.navbar a{
+	color: white;
+	margin: 0 15px;
+	text-decoration: none
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 40px;
+}
+.section{
+	padding: 40px;
+	background-color: #f9f9f9;
+	margin-bottom: 20px;
+}
+.section h2{
+margin-top: 0;
+margin-top: 0;
+}
+.section p{
+	line-height: 1.6;
+}
+@media (max-width: 600px){
+
+	.navbar{
+		flex-direction: column;
+		align-items: center;
+	}
+	.navbar a{
+		margin: 10px 0;
+	}
+}
+
